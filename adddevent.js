@@ -12,10 +12,17 @@ let p = document.querySelector("p");
 p.addEventListener("click",function(){//this if for single click;
     p.style.color="green"
     p.style.fontSize="20px"
-    p.addEventListener("dblclick",function(){//this is what i used for doubleclcik;
+   
+});
+ p.addEventListener("dblclick",function(){//this is what i used for doubleclcik;
 
         p.style.color="red";
         p.style.backgroundColor="blue";
          p.style.fontSize="200px"
+       
     });
-});
+p.addEventListener("mouseover",function(){//ye maine use kiya mouseover kay liye jb agr ami mosue text kay upr 
+    //le jau to mause arrow ---> aki jahga pointer mai badal jaye;
+    p.style.cursor="pointer";
+})
+
