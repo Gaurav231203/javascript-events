@@ -18,7 +18,7 @@ let selected= document.querySelector("select");
 let device=document.querySelector("#device")
 
 selected.addEventListener( "change", function(event){
-    device.textContent="device selected";
+    device.textContent=`${event.target.value} Device Selected`;
    console.log(event.target.value);
 
 });
