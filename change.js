@@ -19,7 +19,8 @@ let device=document.querySelector("#device")
 
 selected.addEventListener( "change", function(event){
     device.textContent=`${event.target.value} Device Selected`;
-   console.log(event.target.value);
+     device.style.color="red"
+     console.log(event.target.value);
 
 });
 /*ismain haime basiclly ye pata chal raha hai ki slected variable --> addEventListener hua-->
