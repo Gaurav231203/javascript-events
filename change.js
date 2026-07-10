@@ -15,12 +15,14 @@ ki value badal jaye aur user us change ko complete kar de.*/
  }
 selected.addEventListener("change",changed);*/}
 let selected= document.querySelector("select");
+let device=document.querySelector("#device")
 
 selected.addEventListener( "change", function(event){
+    device.textContent="device selected";
    console.log(event.target.value);
 
 });
 /*ismain haime basiclly ye pata chal raha hai ki slected variable --> addEventListener hua-->
  "change"kiya--->function banya usak ev naam diay (event)---> fir humne print kiya --> event.target.value*/
 
- orr sabsay badi baat humne ise dono tariko say kiya
+ //orr sabsay badi baat humne ise dono tariko say kiya
