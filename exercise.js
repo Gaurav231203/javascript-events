@@ -8,6 +8,7 @@ function changekey(dets){
      }
      else{
         h1.textContent="you pressed "+`${dets.key}`;
+        condole.log(dets.code);
 
      }
 
