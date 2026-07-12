@@ -29,30 +29,32 @@
             height: 100%;
             background-color: #222; 
         }
-        h1{
-            color: cornflowerblue;
-            font-size: 10rem;
-            font-weight: 300;
-            -webkit-user-select: none; /* Safari 3+, iOS 3+ */
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            letter-spacing: -1rem;
-
+        input{
+           display: none;
+        }
+        #button{
+          padding: 12px 22px;
+          background-color: rgba(41, 143, 114);
+          border-radius: 30px;
+          color: white;
+          font-weight: 600;
 
         }
+        #button:hover{
+            background-color: rgb(13, 63, 49) ;
+        }
 
+        
     </style>
 </head>
 <body>
-
-
-
-    <div id="main"> 
-        <h1>a</h1> </div>
+<div id="main">
+    <input id="fileinp" type="file">
+     <div id="button"> 
+        upload a file❤️
+     </div>
+</div>
+    <script src="uploadfile.js"></script>
     
-
-
-    <script src="exercise.js"></script>
 </body>
 </html>
