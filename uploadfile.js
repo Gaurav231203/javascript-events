@@ -9,7 +9,10 @@
   });
   fileinp.addEventListener("change",function(eventdetails){
     console.log(eventdetails.target.files[0].name);
-    button.textContent= eventdetails.target?.files[0].name;
-     
+    button.textContent= eventdetails.target.files[0].name;
+   // const file = eventdetails.target.files[0];
+    //if(file ){
+        button.textContent=file.name;
+   // }
 
   });
