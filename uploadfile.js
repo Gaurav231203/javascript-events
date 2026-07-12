@@ -12,7 +12,7 @@
     button.textContent= eventdetails.target.files[0].name;
    // const file = eventdetails.target.files[0];
     //if(file ){
-        button.textContent=file.name;
+       // button.textContent=file.name;
    // }
 
   });

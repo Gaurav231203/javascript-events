@@ -9,21 +9,13 @@ Simple English:
 change event tab fire hota hai jab kisi form element (jaise input, select, textarea) 
 ki value badal jaye aur user us change ko complete kar de.*/ 
 
-{/*let selected= document.querySelector("select");
+let selected= document.querySelector("select");
  function changed(event){
     console.log(event.target.value);
  }
-selected.addEventListener("change",changed);*/}
-let selected= document.querySelector("select");
-let device=document.querySelector("#device")
+selected.addEventListener("change",changed);
 
-selected.addEventListener( "change", function(event){
-    device.textContent=`${event.target.value} Device Selected`;
-     device.style.color="red"
-     console.log(event.target.value);
-
-});
 /*ismain haime basiclly ye pata chal raha hai ki slected variable --> addEventListener hua-->
- "change"kiya--->function banya usak ev naam diay (event)---> fir humne print kiya --> event.target.value*/
+ "change"kiya--->function banya usak ek parameter naam diay (event)---> fir humne print kiya --> event.target.value*/
 
  //orr sabsay badi baat humne ise dono tariko say kiya
