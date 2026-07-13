@@ -61,7 +61,7 @@
         card.appendChild(p);
         main.appendChild(card);
           inputs.forEac( function(input){//works only on arrays like structure or objects
-            if(input.value!== ""){
+            if( input.value!== "submit"){
 
               input.value="";
             }
