@@ -60,5 +60,15 @@
         card.appendChild(h5);
         card.appendChild(p);
         main.appendChild(card);
+          inputs.forEac( function(input){//works only on arrays like structure or objects
+            if(input.value!== ""){
+
+              input.value="";
+            }
+
+            
+           
+          });
+        
 
     });
