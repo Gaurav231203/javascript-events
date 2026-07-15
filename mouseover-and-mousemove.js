@@ -11,8 +11,10 @@ mouse.addEventListener("mouseout",()=>{
     mouse.style.transform="scale(1)";
 });*/
 window.addEventListener("mousemove",function(dets){
-    mouse.style.left= dets.clientX + "px";
-    mouse.style.top= dets.clientY + "px";
+    //mouse.style.left= dets.clientX + "px";
+    mouse.style.left=(dets.clientX-200) +"px";
+    //mouse.style.top= dets.clientY + "px";
+    mouse.style.top=(dets.clientY-200) + "px";
     
     console.log(dets.clientX);
     console.log(dets.clientY);
