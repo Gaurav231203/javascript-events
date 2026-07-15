@@ -16,8 +16,9 @@ window.addEventListener("mousemove",function(dets){
     //mouse.style.top= dets.clientY + "px";
     mouse.style.top=(dets.clientY-200) + "px";
     
-    console.log(dets.clientX);
+    console.dir(dets.clientX);
     console.log(dets.clientY);
+     console.log(dets.type);
 
 
 })
