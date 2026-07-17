@@ -10,6 +10,7 @@
 let p = document.querySelector("p");
  
 p.addEventListener("click",function(){//this if for single click;
+    console.log("clicked")
     p.style.color="green"
     p.style.fontSize="20px"
    
@@ -22,7 +23,7 @@ p.addEventListener("click",function(){//this if for single click;
        
     });
 p.addEventListener("mouseover",function(){//ye maine use kiya mouseover kay liye jb agr ami mosue text kay upr 
-    //le jau to mause arrow ---> aki jahga pointer mai badal jaye;
+    //le jau to mause arrow ---> taki jahga pointer mai badal jaye;
     p.style.cursor="pointer";
 })
 
